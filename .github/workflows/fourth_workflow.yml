@@ -1,0 +1,12 @@
+name: Fourth Workflow
+on: workflow_dispatch
+
+jobs:
+  fourth-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print gretings
+        run: echo "hello world"
+      - name: print goodbye
+        run: echo 'goodbye'
+        
